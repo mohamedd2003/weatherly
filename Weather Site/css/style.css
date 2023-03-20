@@ -1,0 +1,130 @@
+:root{
+    --main-color:rgb(147, 153, 162) !important;
+}
+::selection{
+    background-color:#63919a;
+    color: #0dcaf0;
+}
+*{
+    font-family: 'Rubik', sans-serif;
+}
+#splash,#home{
+    background-color: #0b131e;
+}
+.intro,.sidebar
+{
+    background-color: #202b3b !important;
+}
+.siteName{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    color: rgb(240, 241, 241);
+}
+.app,a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24 px;
+    line-height: 30px;
+    color: rgb(147, 153, 162);
+}
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #0095ff;
+    line-height: 30px;
+    color: rgb(147, 153, 162);
+    border: unset;
+}
+.top-20{
+    top:20%
+}
+.title img{
+    width: 100px;
+    height: 100px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.sidebar img{
+    width: 50px;
+    height: 50px;
+}
+.sidebar
+{
+    border-radius: 30px;
+    /* height: 60%; */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #444a54 !important;
+  }
+  .current-temp{
+    font-weight: 600;
+    font-size: 64px;
+    color: rgb(240, 241, 241);
+    line-height: 72px;
+  }
+.today-forecast{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(147, 153, 162);
+    line-height: 20px;
+}
+.time{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(147, 153, 162);
+    line-height: 22px;
+}
+.daily-icon{
+    width: 50px;
+    height: 50px;
+}
+.temperature{
+    font-weight: 600;
+    font-size: 24px;
+    color:rgb(221, 224, 228);
+    line-height: 30px;
+}
+.air-condition{
+    font-size: 20px;
+    color:rgb(147, 153, 162) ;
+    line-height: 26px;
+}
+.temp-icon{
+    color: var(--main-color) !important;
+}
+.temp{
+    font-weight: 600;
+    font-size: 32px;
+    color:rgb(196, 202, 211);
+    line-height: 38px; 
+}
+.fw-bolder
+{
+    font-size: 40px;
+    line-height: 46px;
+    color: rgb(221, 224, 228);
+}   
+.sun{
+    width: 200px;
+    height: 200px;
+}
+
+.day-temp
+{
+    color:rgb(147, 153, 162) ;
+    font-size: 18px;
+    
+}
+.break{
+    border-right: solid white 1px;
+}
+@media screen and(max-width:768px)
+{
+    .break{
+        display: none ;
+        border-right: unset !important;
+    }
+    
+}

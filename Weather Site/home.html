@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div  class=" col-md-2  text-center"></div>
+    <section id="home" class="min-vh-100">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-md-1 pe-0 min-vh-100 ">
+                    <div class="sidebar px-lg-3  py-lg-5  d-flex align-items-center justify-content-center text-center position-relative top-20">
+                        <ul class="text-white list-unstyled ">
+                            <img src="d0bb0968-406e-4014-b9ab-080788e9d44b.png">
+                            <li class=" mt-5 nav-item">
+                                <a href="" class="nav-link active ">
+                                    <i class="fa-solid fa-cloud-moon-rain d-block "></i>
+                                    Weather
+                                </a>
+                            </li>
+                            
+                           
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7   mt-lg-5">
+                    <div class="city-weather">
+                        <input type="text" onkeydown="this.value" class="intro border-0 py-2 form-control text-info bg-transparent " id="search"
+                            placeholder="Search For Cities">
+                    </div>
+                    <div class="content mt-5 row " id="cityName">
+
+                    </div>
+                    <div class="col-12 mt-5 intro pb-5 px-5 rounded-5">
+                        <h6 class="today-forecast py-4 m-0">TODAY'S FORECAST</h6>
+                        <div class="row" id="hourTemp">
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-12 mt-5 intro pb-4 px-5 rounded-5">
+                        <h6 class="today-forecast py-4 m-0">AIR CONDITIONS</h6>
+                        <div class="row">
+                            <div class=" col-md-6 d-flex" id="realFeel">
+
+                            </div>
+                            <div class=" col-md-6 d-flex " id="wind">
+
+                            </div>
+                            <div class=" col-md-6 pt-4 d-flex" id="rain">
+
+                            </div>
+                            <div class=" col-md-6 pt-4 d-flex " id="uvIndex">
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-4   intro rounded-5 h-auto mt-5  " >
+                    <h6 class="today-forecast pt-5 mb-4 ">10-DAY FORECAST</h6>
+                    <div id="dayWeather"></div>
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="styles__ImageContainer-sc-1fke0h8-0 IlUFx" style="background-image: 
+    url("https://assets.api.uizard.io/api/cdn/stream/0c363d67-846f-41b5-9ccb-6261c602667e.png"); background-position: center center; 
+    background-size: cover; background-repeat: no-repeat; border-radius: 16px; opacity: 1; border: 0px;"></div> -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
